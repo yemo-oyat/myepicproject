@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.localnet]
+myepicproject = "4KoWQ2GpwY319E5snKt1jnCxaMeihshU2YgYS8mnsKGf"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/home/adebayo_tayo/.config/solana/id.json"
+
+[scripts]
+test = "node tests/myepicproject.js"
